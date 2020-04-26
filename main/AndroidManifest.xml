@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harish.rides">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".User" />
+        <activity android:name=".MakeReservation" />
+        <activity android:name=".AvailableCars" />
+        <activity android:name=".CalculateAmount" />
+        <activity android:name=".Reservation" />
+        <activity android:name=".view_reservation_user" />
+        <activity android:name=".Manager_Home" />
+        <activity android:name=".ManagerViewProfile" />
+        <activity android:name=".ManagerViewRental" />
+        <activity android:name=".ViewRentalDetails" />
+        <activity android:name=".Admin_view_user" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".ViewProfile"></activity>
+    </application>
+
+</manifest>
